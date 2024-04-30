@@ -16,12 +16,21 @@
 // }
 // console.log(celsiusToFahrenheit(25));
 
-// EJERCICIO 3
+// // EJERCICIO 3
 
-function randomNumber(min, max) {
-  return parseInt(Math.random() * (max - min + 1) + min);
+// function randomNumber(min, max) {
+//   return parseInt(Math.random() * (max - min + 1) + min);
+// }
+// console.log(randomNumber(5, 20));
+
+// EJERCICIO 4
+
+const circleRadius = parseInt(prompt("Ingresa el radio del círculo"));
+
+function circleArea(r) {
+  return Math.PI * r ** 2;
 }
-console.log(randomNumber(5, 20));
+console.log(circleArea(circleRadius));
 
 
 
