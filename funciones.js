@@ -23,14 +23,24 @@
 // }
 // console.log(randomNumber(5, 20));
 
-// EJERCICIO 4
+// // EJERCICIO 4
 
-const circleRadius = parseInt(prompt("Ingresa el radio del círculo"));
+// const circleRadius = parseInt(prompt("Ingresa el radio del círculo"));
 
-function circleArea(r) {
-  return Math.PI * r ** 2;
-}
-console.log(circleArea(circleRadius));
+// function circleArea(r) {
+//   return Math.PI * r ** 2;
+// }
+// console.log(circleArea(circleRadius));
 
+// // EJERCICIO 5
 
+// const city = prompt("Ingrese una ciudad");
+// const job = prompt("ingrese un trabajo");
+// const sons = prompt("ingrese número de hijos que quiere tener");
+// const couple = prompt("ingrese el nombre de su pareja");
 
+// function fortuneTeller(a, b, c, d) {
+//   return `Trabajaras en ${a}, trabajando como ${b}, y tendrás ${c} hijos con ${d}.`;
+// }
+
+// console.log(fortuneTeller(city, job, sons, couple));
