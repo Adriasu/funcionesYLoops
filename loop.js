@@ -56,8 +56,29 @@
 //   }
 // }
 
+// // EJERCICIO 6
+
+// const finalNumber = prompt("Ingrese un número");
+
+// let evenNumber = 0;
+// let oddNumber = 0;
+
+// for (let i = 0; i <= finalNumber; i++) {
+//   if (i % 2 === 0) {
+//     evenNumber += i;
+//   } else {
+//     oddNumber += i;
+//   }
+// }
+
+// console.log(
+//   `La suma de todos los números pares del 0 al ${finalNumber} es ${evenNumber}, y la suma de todos los números impares del 0 al ${finalNumber} es ${oddNumber}.`
+// );
+
+//console.log(evenNumber, oddNumber);
+
 // // EJERCICIO 7
 
-// for (let i = ""; i.length <= 7; i += "*"){
+// for (let i = "#"; i.length <= 7; i += "#"){
 //     console.log(i);
 //     }
