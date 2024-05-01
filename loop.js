@@ -82,3 +82,18 @@
 // for (let i = "#"; i.length <= 7; i += "#"){
 //     console.log(i);
 //     }
+
+// EJERCICIO 8
+let espacios = "*"
+let numeral ="#"
+
+for (let i = 1; i <= 7; i++){
+    for (let c = 1; c <=7-i; c++){
+        console.log("*");
+    } console.log(" ");
+}
+
+
+// for (let x = "#"; x.length <= 7; x += "#") {
+//     console.log(x);
+//   } 
