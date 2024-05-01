@@ -84,16 +84,31 @@
 //     }
 
 // EJERCICIO 8
-let espacios = "*"
-let numeral ="#"
 
-for (let i = 1; i <= 7; i++){
-    for (let c = 1; c <=7-i; c++){
-        console.log("*");
-    } console.log(" ");
+let character = "";
+let space = 6;
+
+for (let i = 2; i <= 14; i += 2) {
+  for (let j = 0; j < space; j++) {
+    character += " ";
+  }
+  space--;
+  for (let j = 0; j < i; j++) {
+    character += "#";
+  }
+  character += "\n";
+}
+space = 1;
+
+for (let i = 12; i >= 2; i -= 2) {
+  for (let j = 0; j < space; j++) {
+    character += " ";
+  }
+  space++
+  for (let j = 0; j < i; j++){
+    character += "#"
+  }
+  character += "\n"
 }
 
-
-// for (let x = "#"; x.length <= 7; x += "#") {
-//     console.log(x);
-//   } 
+console.log(character);
