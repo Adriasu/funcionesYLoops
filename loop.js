@@ -34,5 +34,16 @@
 //     console.log(i, i**2, i**3);
 // }
 
+// // EJERCICIO 4
 
+// let sum = 1;
+// for (let i = 0; i <= 10; i++) {
+//   sum += i;
+// }
+// console.log(sum);
 
+// // EJERCICIO 7
+
+// for (let i = ""; i.length <= 7; i += "*"){
+//     console.log(i);
+//     }
