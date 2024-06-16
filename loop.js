@@ -88,7 +88,7 @@ for (let i = 1; i <= 7; i++){
     console.log (print += "#");
 }
 
-// EJERCICIO 8
+EJERCICIO 8
 
 let character = "";
 let space = 6;
